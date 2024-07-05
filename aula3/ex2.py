@@ -3,7 +3,7 @@
 # not - não - negação  / and - e - conjunção / or - ou - disjunção
 
 
-# OPERADOR not 
+# OPERADOR not (Os dois não podem ser True)
 x = True
 y = False
 print(not x)

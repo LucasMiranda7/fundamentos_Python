@@ -47,6 +47,15 @@ if (x % 2 == 0): #% resto de divisão
 if(x % 2 == 1):
       print('O numero é ímpar!')
 
+
+y = int(input('Insira um valor do Tipo Inteiro: '))  
+if (y % 2 == 0):
+  print('O numero é par')    
+if (y % 2 == 1):
+    print('O numero é impar')
+
+
+    
 # Maneira correta
 x = int(input('Digite um Valor inteiro: '))
 if (x % 2 == 0): #% resto de divisão
@@ -55,5 +64,8 @@ else:
       print('O numero é ímpar!')
 
 
-
-
+y = int(input('Digite um Valor inteiro: '))
+if(y % 2 == 0):
+    print('Numero é par!')
+else:
+    print('Numero é impar1')
