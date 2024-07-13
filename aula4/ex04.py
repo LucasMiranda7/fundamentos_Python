@@ -1,9 +1,19 @@
-#ex com Acumuladores
-soma = 0
-cont = 1
-while (cont <=5):
-  x = float(input(f'Digite a {cont}° nota:'))
-  soma += x
-  cont += 1
-media = soma / 5
-print(f'Média final: {media}')
+#Retorno de valores em funções
+
+
+def soma3 (x = 0, y = 0, z = 0):
+    res = x + y + z
+    return res
+
+#programa principal
+retornado = soma3(1,2,3)
+print(retornado)
+
+##forma simplificada
+print(soma3(2,2))
+
+#outros exemplos
+retornado1 = soma3(1,2,3)
+retornado2 = soma3(1,2)
+retornado3 = soma3()
+print(f'Somatórios: {retornado1}, {retornado2} e {retornado3}')

@@ -1,6 +1,7 @@
-#Validando dados de Entrada com um loop
+##Função lambda
+            #x: Parametro  / x * x Return
+res = lambda x: x * x
+print(res(3))
 
-x = int(input('Digite um valor maior que zero: '))
-while (x <= 0):
-  x = int(input('Digite um valor maior que zero: '))
-print(f'Você digitou {x}. Encerrando o programa...')
+soma = lambda x, y: x + y
+print(soma(3, 5))
